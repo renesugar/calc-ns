@@ -1,0 +1,78 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme. 
+The imported CSS rules must precede all other types of rules.
+*/
+@import '~nativescript-theme-core/css/core.light.css';
+
+/*
+The following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn {
+    font-size: 32;
+    font-weight: bold;
+
+    display:block;
+    /*height: 300px;
+    width: 300px;*/
+    margin: 2px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+
+.charcoal {
+    background-color: #5a5c5c;
+    color: white;
+}
+
+.darkgrey {
+    background-color: #575757;
+    color: white;
+}
+
+.orange {
+    background-color: #fca00b;
+    color: white;
+}
+
+.silver {
+    background-color: #7b7b7c;
+    color: white;
+}
+
+.display-label {
+    background-color: #575757;
+    color: white;
+    font-size: 64vw;
+    text-align: right;
+    height: 25%;
+    width: 100%;
+}
+
+.submit-button {
+    background-image: 
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10'><linearGradient id='gradient'><stop offset='10%' stop-color='%23F00'/><stop offset='90%' stop-color='%23fcc'/> </linearGradient><rect fill='url(%23gradient)' x='0' y='0' width='100%' height='100%'/></svg>");
+}
+
+.far {
+    font-family: Font Awesome 5 Free, fa-regular-400;
+    font-weight: 400; 
+}
+
+.fab {
+    font-family: Font Awesome 5 Brands, fa-brands-400;
+    font-weight: 400; 
+}
+
+.fas {
+    font-family: Font Awesome 5 Free, fa-solid-900;
+    font-weight: 900; 
+}
