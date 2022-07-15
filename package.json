@@ -22,7 +22,7 @@
   "devDependencies": {
     "nativescript-dev-typescript": "~0.9.0",
     "nativescript-dev-webpack": "~0.22.0",
-    "svelte": "^3.4.2",
+    "svelte": "^3.49.0",
     "svelte-loader": "github:halfnelson/svelte-loader#fix-virtual-purge",
     "svelte-native-preprocessor": "^0.1.4"
   },
